@@ -1,0 +1,16 @@
+<div class="container">
+  <form>
+    <div class="form-group">
+      <h1 class="text-center text-primary">iPrice Test</h1>
+      <div class="input-group-prepend">
+        <input type="text" class="form-control" placeholder="Insert Text" name="inputText" #inputText> <span class="input-group-text"
+          (click)="changeText(inputText.value)">Generate</span>
+      </div>
+      <div class="output">
+        <div class="output-text">{{outputText | uppercase }}</div>
+        <div class="output-text">{{outputText}}</div>
+        <div class="file-status">{{CSVStatus}}</div>
+      </div>
+    </div>
+  </form>
+</div>

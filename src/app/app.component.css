@@ -1,0 +1,22 @@
+body{ 
+    padding: 0; 
+    margin: 0;
+}
+
+form{ 
+    max-width: 25em; 
+    margin: 1em auto;
+}
+
+.output-text{
+    font-size: 24px;
+    text-align: center;
+    margin:5px;
+}
+
+.file-status{
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    margin:5px;
+}
